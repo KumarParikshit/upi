@@ -17,12 +17,12 @@ export const Navbar = () => {
   const [state, setState] = useState(false);
 
   const navigation = [
-    { title: 'About', path: '/about' }
+    { title: 'About', path: '' }
   ];
 
   const Brand = () => (
     <div className="flex items-center justify-between py-5 md:block">
-      <Link href="/" className="flex items-center">
+      <Link href="" className="flex items-center">
         
         <p className={`${poppins.className} ml-2 text-white text-2xl font-black tracking-wide`}>
           CARDERS ZONE TG
