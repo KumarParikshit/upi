@@ -23,14 +23,9 @@ export const Navbar = () => {
   const Brand = () => (
     <div className="flex items-center justify-between py-5 md:block">
       <Link href="/" className="flex items-center">
-        <Image
-          src="/logo.svg"
-          width={40}
-          height={40}
-          alt="UPI"
-        />
+        
         <p className={`${poppins.className} ml-2 text-white text-2xl font-black tracking-wide`}>
-          GETUPILINK
+          CARDERS ZONE TG
         </p>
       </Link>
       <div className="md:hidden">
