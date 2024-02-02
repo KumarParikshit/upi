@@ -29,7 +29,7 @@ type LinkProps = {
   url: string;
 };
 
-const validate = (values: FormData) => {
+{/*const validate = (values: FormData) => {
   const errors: FormErrors = {};
 
   if (!values.upiID) {
@@ -110,7 +110,7 @@ const UpiForm = () => {
 
   }
 
-    {/*return (
+    return (
     <>
       <SeoMeta />
       <HeroSection />
@@ -235,7 +235,8 @@ const UpiForm = () => {
                     type="submit"
                     onClick={redirectToPage}
                     className={`${inter.className} w-full mt-6 flex justify-center py-4 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
-                  >*/}
+                  >
+
                     Preview
                   </button>
                 </div>
@@ -248,4 +249,4 @@ const UpiForm = () => {
   );
 };
 
-export default UpiForm;
+export default UpiForm;*/)}
