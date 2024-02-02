@@ -2,13 +2,12 @@ import Head from 'next/head';
 import React from 'react';
 
 const defaultMeta = {
-  title: 'Generate UPI Link For Free',
-  description: 'Generate Free UPI Link with getupilink.com. You can create QR Code. It supports PhonePe, Google Pay and many other payment applications.',
-  keywords: 'upi link generator, free upi link generator, upi qr code generator',
+  title: 'Carders Zone Gateway',
+  description: 'Payment Gateway By Carders Zone.',
+  keywords: 'carders zone',
   topics: 'payment, upi, qr, bhim',
   topic: 'payment',
-  siteName: 'https://getupilink.com',
-  ogImage: 'https://getupilink.com/og_image.png',
+  siteName: 'https://payments.carderszone.online/',
   canonicalUrl: '',
 };
 
@@ -19,7 +18,7 @@ type MetaProps = {
   topics?: string;
   topic?: string;
   siteName?: string;
-  ogImage?: string;
+  
   canonicalUrl?: string;
 };
 
@@ -30,7 +29,7 @@ const SeoMeta: React.FunctionComponent<MetaProps> = ({
   topics,
   topic,
   siteName,
-  ogImage,
+  
   canonicalUrl,
 }) => {
   return (
@@ -51,10 +50,7 @@ const SeoMeta: React.FunctionComponent<MetaProps> = ({
         property="og:description"
         content={description || defaultMeta.description}
       />
-      <meta
-        property="og:image"
-        content={ogImage || defaultMeta.ogImage}
-      />
+      
       {/* <meta name="og:type" content={topic || defaultMeta.topic} /> */}
       <meta
         property="og:site_name"
